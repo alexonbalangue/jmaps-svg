@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.7" client="site" method="upgrade">
+	<name>jmaps</name>
+	<author>Alexon Balangue</author>
+	<creationDate>3 Decembre 2016</creationDate>
+	<copyright>Copyright (C) Alexon Balangue. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contacter@alexonbalangue.me</authorEmail>
+	<authorUrl>www.alexonbalangue.me</authorUrl>
+	<version>1</version>
+	<description>jmaps SVG région Ile-de-France From France par www.alexonbalangue.me</description>
+	<files>
+		<filename module="mod_jmaps">mod_jmaps.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			<field name="vars" type="text" default="" label="END URL" description="exemple: url.html" size="10" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
